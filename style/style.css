@@ -16,10 +16,6 @@ body{
     }
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-}
 
 main{
     font-size: 1.5em;
