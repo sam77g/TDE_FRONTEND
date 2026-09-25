@@ -2,8 +2,22 @@
     margin: 0;
     padding: 0; 
 }
-@media (max-width: 768px) {
-    .container {
+@media (min-width: 768px) {
+    .header {
         flex-direction: column;
     }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 15px;
+    align-items: center;
 }
