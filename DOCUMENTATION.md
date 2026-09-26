@@ -469,3 +469,115 @@ O fluxo padrão para qualquer colaborador será:
 O objetivo do fluxo não é criar burocracia, mas manter o projeto organizado e permitir que os quatro integrantes trabalhem simultaneamente sem sobrescrever o trabalho uns dos outros.
 
 Sempre que houver dúvida sobre uma alteração que possa afetar o trabalho de outro integrante, a decisão deve ser discutida antes de realizar o merge.
+
+## 17. Versionamento do Projeto
+
+O projeto utilizará **Git Tags e GitHub Releases** para identificar suas principais versões.
+
+Cada versão representa um estado importante do desenvolvimento e será associada a um commit específico do projeto.
+
+### 17.1 Versões do projeto
+
+| Versão         | Descrição                               |
+| -------------- | --------------------------------------- |
+| `v0.1.0-alpha` | Estrutura inicial utilizando HTML5      |
+| `v0.2.0-beta`  | Implementação de CSS3 e Bootstrap 5     |
+| `v1.0.0`       | Versão final para deploy e apresentação |
+
+### 17.2 Alpha — `v0.1.0-alpha`
+
+A versão Alpha representa a primeira etapa do desenvolvimento.
+
+Nesta versão será implementada principalmente a estrutura HTML5 do projeto.
+
+Inclui:
+
+* Estrutura das páginas;
+* Elementos HTML;
+* Conteúdo inicial;
+* Organização inicial dos arquivos.
+
+Nesta etapa, o projeto ainda não representa a versão visual final.
+
+Para criar a tag:
+
+```bash
+git tag -a v0.1.0-alpha -m "Alpha 0.1.0 - Estrutura HTML"
+git push origin v0.1.0-alpha
+```
+
+### 17.3 Beta — `v0.2.0-beta`
+
+A versão Beta representa a segunda etapa do desenvolvimento.
+
+Nesta versão serão incorporados:
+
+* CSS3;
+* Bootstrap 5;
+* Componentes visuais;
+* Layout;
+* Responsividade;
+* Ajustes de interface.
+
+Para criar a tag:
+
+```bash
+git tag -a v0.2.0-beta -m "Beta 0.2.0 - HTML, CSS e Bootstrap"
+git push origin v0.2.0-beta
+```
+
+### 17.4 Versão final — `v1.0.0`
+
+A versão `v1.0.0` representa a versão final do projeto.
+
+Ela será utilizada para o deploy e para a apresentação do projeto.
+
+Antes da criação dessa versão, o projeto deve passar por:
+
+* revisão do código;
+* testes das páginas;
+* verificação da responsividade;
+* correção de problemas;
+* revisão dos links;
+* revisão dos arquivos;
+* validação da versão final.
+
+A versão `v1.0.0` deverá estar associada à `main`.
+
+Para criar a versão:
+
+```bash
+git checkout main
+git pull origin main
+
+git tag -a v1.0.0 -m "Release 1.0.0 - Versão final"
+git push origin v1.0.0
+```
+
+### 17.5 Fluxo de versionamento
+
+O fluxo esperado é:
+
+```text
+Desenvolvimento
+      ↓
+v0.1.0-alpha
+      ↓
+HTML5
+      ↓
+v0.2.0-beta
+      ↓
+HTML5 + CSS3 + Bootstrap 5
+      ↓
+Testes e revisão
+      ↓
+v1.0.0
+      ↓
+Deploy
+      ↓
+Apresentação
+```
+
+As tags devem ser criadas somente quando o projeto atingir o estado correspondente à versão.
+
+As versões anteriores não devem ser alteradas depois de publicadas. Caso seja necessário corrigir uma versão já publicada, deve ser criada uma nova versão.
