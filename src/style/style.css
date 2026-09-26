@@ -1,49 +1,60 @@
-
-
-* { 
-    margin: 0;
-    padding: 0; 
+.bg-navbar {
+  background-color: #0a6e3c;
 }
 
-body{
-    margin: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+.hero-section {
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
 }
 
-@media (min-width: 768px) {
-    .header {
-        flex-direction: column;
-    }
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: url("../img/Rio\ de\ Janeiro.jpg") center/cover no-repeat;
+  transform: scale(1.05); 
+  z-index: -1;
 }
 
-
-main{
-    font-size: 1.5em;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 10px 15px;
-    align-items: center;
+.hero-card {
+  backdrop-filter: blur(5px);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(120,230,180,0.75), rgba(20,150,120,0.75));
+  color: #06301d;
 }
 
-.img_trips{
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
+.hero-card h1 {
+  font-size: 2.75rem;
+  line-height: 1.15;
 }
 
+.hero-card p {
+  color: #fff;
+  font-size: 1.15rem;
+  margin: 20px 0 25px;
+}
 
-header h1 {
-    font-size: 1.2em;
+#btn-hero {
+  background-color: #1400ff;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 8px;
+}
+
+#btn-hero:hover {
+  background-color: #0e00cc;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .hero-card h1 { font-size: 1.9rem; }
+  .hero-card { padding: 30px 20px; }
+}
+
+footer{
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.img_2{
-    width: 100%;
-    max-width: 685px;
-    height: auto;
-    border-radius: 30px;
-    padding: 15px;
+    margin: 10px;
 }

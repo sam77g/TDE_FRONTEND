@@ -10,55 +10,69 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top light-bg">
+      .<nav class="navbar navbar-light bg-light fixed-top px-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Desc</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Desc 2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link" href="#">Link</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-    </nav>
+      </nav>
+      
   </header>
 
-  <section class="hero d-flex align-items-center text-center text-black">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Sua próxima viagem começa aqui</h1>
-      <p class="lead">Pacotes exclusivos pelos destinos mais incríveis do Brasil</p>
-      <a href="#pacotes" class="btn btn-primary btn-lg">Ver pacotes</a>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-card">
+          <h1 class="fw-bold">Sua próxima viagem<br>começa AQUI!</h1>
+          <p>Pacotes exclusivos pelos destinos mais incríveis do Brasil</p>
+          <a href="#pacotes" class="btn btn-hero fw-bold" id="btn-hero">ver pacotes</a>
+        </div>
+      </div>
+    </section>
 
     <main>
-      <section class="py-5">
-        <div class="row text-center">
-          <div class="col-md-4">
-          <h3>🏆 Melhor preço</h3>
-          <p>Negociamos direto com fornecedores.</p>
-        </div>
-        </div>
-      </section>
     </main>
 
     <footer>
