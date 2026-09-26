@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --primary-color : #00E30A;
+    --second-color : #293329;
+    --third-color : #91E300;
+    --white-bg : #ffffff ;
+}
+
 .bg-navbar {
   background-color: #0a6e3c;
 }
