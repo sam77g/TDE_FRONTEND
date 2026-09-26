@@ -6,12 +6,13 @@ Neste documento será abordado como devem ser commitadas as mudanças, as branch
 
 ### COMO DEVO PARTICIPAR ?
 Qualquer um que queira contribuir deve seguir as seguintes __regras__ :
-- **Antes do commit/Pull Request** : 
+- **Antes do commit/Pull Request** : Antes de abrir seu PR, você deve atualizar sua branch. 
     ```bash 
         git checkout develop
         git pull origin develop
         git checkout feature/navbar
         git merge develop
+    ```
 
 - Quando for trabalhar no projeto, trabalhe em uma branch separada (ex: FEATURE/navbar )
 - Apenas der pull request quando terminar a feature ou fix
