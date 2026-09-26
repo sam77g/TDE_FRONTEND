@@ -1,10 +1,17 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
+/* variáveis */
 :root{
     --primary-color : #00E30A;
     --second-color : #293329;
     --third-color : #91E300;
-    --white-bg : #ffffff ;
+    --bs-body-bg : #FBF0F6 ;
+    --bs-body-font-family : 'Museo Moderno', sans-serif;
+    --bs-text-color : #fbfbfb ;
+}
+
+.header{
+    z-index: 2;
 }
 
 .bg-navbar {
@@ -20,7 +27,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url("../img/Rio\ de\ Janeiro.jpg") center/cover no-repeat;
+  background: url("../img/Rio_de_Janeiro.jpg") center/cover no-repeat;
   transform: scale(1.05); 
   z-index: -1;
 }
@@ -67,3 +74,4 @@ footer{
     text-align: center;
     margin: 10px;
 }
+
