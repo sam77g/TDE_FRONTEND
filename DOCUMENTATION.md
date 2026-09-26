@@ -22,3 +22,7 @@ Qualquer um que queira contribuir deve seguir as seguintes __regras__ :
     - Correção : ```git commit -m "fix: corrige menu mobile" ```
     - Documentação : ``` git commit -m "docs: atualiza documentação do projeto" ```
     - Refatoração : ``` git commit -m "refactor: reorganiza componentes da navbar" ```
+- Branchs : 
+    - __Main__ : Branch principal, onde será feito o deploy do projeto
+    - __Produção__ : Branch de desenvolvimento, onde todos devem e podem commit e fazer os pull request
+    - __Teste__ : Branch de teste do projeto
