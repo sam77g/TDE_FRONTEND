@@ -10,14 +10,18 @@
     --bs-text-color : #fbfbfb ;
 }
 
+/* barra de navegação */
+#navbar{
+    background-color: rgb(11, 21, 3);
+    left: 0; top: 0; right: 0; bottom: 0;
+    z-index: 4;
+}
+
 .header{
     z-index: 2;
 }
 
-.bg-navbar {
-  background-color: #0a6e3c;
-}
-
+/* 
 .hero-section {
   position: relative;
   padding: 60px 0;
@@ -63,7 +67,7 @@
 #btn-hero:hover {
   background-color: #0e00cc;
   color: #fff;
-}
+} */
 
 @media (max-width: 576px) {
   .hero-card h1 { font-size: 1.9rem; }
