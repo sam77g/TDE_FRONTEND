@@ -11,38 +11,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header p-3 ">
+
+    <header class="header p-3 position-absolute start-0 top-0 end-0" >
       <nav class="navbar navbar-light bg-light fixed-top px-4 bg-black">
         <div class="d-flex justify-content-between align-items-center ">
           <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Emerald</a>
         </div>
 
         <div>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggke="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" width="36px">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
           </button>
         </div>
       </nav>
-
-      <nav class="collapse navbar-collapse" id="navbar">
-        <ul>
-          <li><a href="#link">link 1</a></li>
-          <li><a href="#link">link 1</a></li>
-          <li><a href="#link">link 1</a></li>
-        </ul>
-
-        <div>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggke="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-            </svg>
-          </button>
-        </div>
-      </nav>
       
   </header>
+
+  <nav id="navbar" class="collapse nabar-collapse dropdown-nav">
+    <ul>
+      <li><a href="#"> link 1 </a></li>
+      <li><a href="#"> link 2 </a></li>
+      <li><a href="#"> link 3 </a></li>
+      <li><a href="#"> link 4 </a></li>
+    </ul>
+
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" width="36px">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </button>
+
+  </nav>
 
     <!-- Hero -->
     <section class="hero-section">

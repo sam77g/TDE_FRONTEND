@@ -12,9 +12,10 @@
 
 /* barra de navegação */
 #navbar{
-    background-color: rgb(11, 21, 3);
-    left: 0; top: 0; right: 0; bottom: 0;
-    z-index: 4;
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  z-index: 4;
+  background-color: rgb(11, 21, 3);
 }
 
 .header{
