@@ -76,13 +76,25 @@ header{
   color: #fff;
 } 
 
+.cta{
+  padding:5.5rem 0; text-align:center;
+}
+.cta h2{
+  font-size:clamp(1.8rem,3.5vw,2.6rem); max-width:20ch; margin:0 auto 1.5rem;
+}
+
 @media (max-width: 576px) {
   .hero-card h1 { font-size: 1.9rem; }
   .hero-card { padding: 30px 20px; }
 }
 
 footer{
-    text-align: center;
-    margin: 10px;
+  background:var(--second-color);
+  color:var(--bs-text-color); 
+  padding:2.5rem 0; 
+  font-size:.9rem;
 }
-
+footer a{
+  color:var(--bs-body-bg); 
+  text-decoration:none;
+}

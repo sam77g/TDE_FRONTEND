@@ -11,31 +11,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg sticky-top ">
-  <div class="container">
-    <a class="navbar-brand brand" href="#">Emerald</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="menu">
-      <div class="offcanvas-header">
-        <span class="brand">Emerald</span>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+      <div class="container">
+        <a class="navbar-brand brand" href="#">Emerald</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="menu">
+          <div class="offcanvas-header">
+            <span class="brand">Emerald</span>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+              <li class="nav-item"><a class="btn btn-coral mt-2 mt-lg-0" href="#contato">Planejar viagem</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
-          <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-          <li class="nav-item"><a class="btn btn-coral mt-2 mt-lg-0" href="#contato">Planejar viagem</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
-    
-  </header>
+    </nav>
+  
 
     <!-- Hero -->
     <section class="hero-section">
@@ -51,22 +50,34 @@
 
     <main>
 
-      <section id="destinos">
+      <section id="destinos" class="destinos">
 
       </section>
+      <section class="sobre" id="sobre">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="section-label" style="color:#8FD9CF;">Quem somos</p>
+        <h2>Agência pequena, roteiros feitos sob medida</h2>
+        <div class="divider"></div>
+        <p style="max-width:48ch; color:#CBD8D6;">Somos um time pequeno que trabalha direto com guias e pousadas locais em cada destino. Isso significa grupos menores, preços mais justos pra quem recebe o viajante, e roteiros que mudam se o clima, a maré ou a vontade do grupo mudar.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <section id="sobre">
-
-      </section>
-
-      <section id="contato">
-        
+      <section class="cta" id="contato">
+        <div class="container">
+          <p class="section-label">Pronto pra ir?</p>
+          <h2>Conta pra gente onde você quer chegar e montamos o roteiro juntos</h2>
+          <a href="mailto:contato@emerald.com.br" class="btn btn-coral">contato@emerald.com.br</a>
+        </div>
       </section>
     </main>
 
   <footer>
     <div class="container d-flex flex-wrap justify-content-between gap-3">
-      <span>© 2026 Rota Nativa Turismo</span>
+      <span>© 2026 TDE FRONTEND - sam77g</span>
       <span><a href="#destinos">Destinos</a> · <a href="#sobre">Sobre</a> · <a href="#contato">Contato</a></span>
     </div>
   </footer>
