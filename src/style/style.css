@@ -16,12 +16,19 @@
   left: 0; top: 0; right: 0; bottom: 0;
   z-index: 4;
   background-color: rgb(11, 21, 3);
+  color: #FBF0F6;
 }
 
 .header{
     z-index: 2;
 }
-
+.dropdown-nav__closeNavBtn{
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  background-color: rgba(94, 201, 6);
+  color: #FBF0F6;
+}
 /* 
 .hero-section {
   position: relative;
