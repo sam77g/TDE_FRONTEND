@@ -98,3 +98,13 @@ footer a{
   color:var(--bs-body-bg); 
   text-decoration:none;
 }
+
+
+.sobre{
+  background-color: var(--second-color);
+}
+
+.sobre h2{
+  color: var(--bs-text-color);
+}
+
