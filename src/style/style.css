@@ -20,6 +20,10 @@ html{
   scroll-padding-top:env(safe-area-inset-top,0px);
 }
 
+.img{
+  max-width: 720px ;
+  max-height: 720px;
+}
 
 header{
   font-family: museomoderno;
