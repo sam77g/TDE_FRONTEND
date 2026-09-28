@@ -2,6 +2,7 @@
 
 Landing page institucional para uma empresa de viagens e turismo, desenvolvida como trabalho acadêmico (TDE) da disciplina de **Front-End**, ministrada pelo Prof. Gean Trabuco.
 
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Versão](https://img.shields.io/badge/vers%C3%A3o-v0.2.0--beta-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -20,9 +21,8 @@ Landing page institucional para uma empresa de viagens e turismo, desenvolvida c
 6. [Como Executar](#6-como-executar)
 7. [Versionamento](#7-versionamento)
 8. [Fluxo de Desenvolvimento](#8-fluxo-de-desenvolvimento)
-9. [Equipe](#9-equipe)
-10. [Status do Projeto](#10-status-do-projeto)
-11. [Licença](#11-licença)
+9. [Status do Projeto](#10-status-do-projeto)
+10. [Licença](#11-licença)
 
 ---
 
@@ -151,32 +151,20 @@ git commit -m "feat: adiciona seção de destinos"
 
 Todo Pull Request deve ser revisado por outro integrante da equipe antes da integração.
 
-## 9. Equipe
 
-O projeto é desenvolvido por um grupo de quatro integrantes.
-
-| Nome | Responsabilidade | GitHub |
-| ---- | ---------------- | ------ |
-| _A definir_ | _A definir_ | [@usuario](https://github.com/usuario) |
-| _A definir_ | _A definir_ | [@usuario](https://github.com/usuario) |
-| _A definir_ | _A definir_ | [@usuario](https://github.com/usuario) |
-| _A definir_ | _A definir_ | [@usuario](https://github.com/usuario) |
-
-**Orientação acadêmica:** Prof. Gean Trabuco — disciplina de Front-End.
-
-## 10. Status do Projeto
+## 9. Status do Projeto
 
 🚧 **Em desenvolvimento** — etapa `v0.2.0-beta` (HTML5, CSS3 e Bootstrap 5).
 
 Itens pendentes identificados para as próximas etapas:
 
-- [ ] Consolidar o `index.html`, que atualmente contém blocos duplicados de estrutura (`<head>` e `<body>`).
-- [ ] Padronizar os nomes e os caminhos dos arquivos de imagem referenciados no HTML.
-- [ ] Revisar a declaração do `@import` de fontes no `style.css`, que deve ocupar o início do arquivo.
+- [x] Consolidar o `index.html`, removendo os blocos duplicados de estrutura (`<head>` e `<body>`).
+- [x] Padronizar os nomes e os caminhos dos arquivos de imagem referenciados no HTML.
+- [x] Reposicionar o `@import` de fontes no início do `style.css`.
 - [ ] Implementar os comportamentos em `script.js`, caso necessários.
 - [ ] Executar a revisão final, os testes de responsividade e a validação dos links.
 - [ ] Publicar a versão `v1.0.0` e realizar o *deploy*.
 
-## 11. Licença
+## 10. Licença
 
 Este projeto está licenciado sob a **Licença MIT**. Consulte o arquivo [`LICENSE`](./LICENSE) para mais informações.
