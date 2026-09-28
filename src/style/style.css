@@ -1,15 +1,21 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* variáveis */
+:root {
+  --primary-color: #00E30A;
+  --second-color: #293329;
+  --third-color: #91E300;
+  --bs-body-bg: #FBF0F6;
+  --bs-body-font-family: 'Museo Moderno', sans-serif;
+  --bs-text-color: #fbfbfb;
+}
 
 
 * { 
     margin: 0;
     padding: 0; 
 }
-
-body{
-    margin: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 @media (min-width: 768px) {
     .header {
         flex-direction: column;
@@ -26,12 +32,6 @@ main{
     align-items: center;
 }
 
-.img_trips{
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-}
 
 
 header h1 {
@@ -40,26 +40,7 @@ header h1 {
     margin-bottom: 20px;
 }
 
-.img_2{
-    width: 100%;
-    max-width: 685px;
-    height: auto;
-    border-radius: 30px;
-    padding: 15px;
-}
 
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-/* variáveis */
-:root {
-  --primary-color: #00E30A;
-  --second-color: #293329;
-  --third-color: #91E300;
-  --bs-body-bg: #FBF0F6;
-  --bs-body-font-family: 'Museo Moderno', sans-serif;
-  --bs-text-color: #fbfbfb;
-}
 
 
 /* GLOBAL SETTINGS */
