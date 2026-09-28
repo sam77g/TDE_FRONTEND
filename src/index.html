@@ -79,4 +79,170 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tde Front-End</title>
+  <!-- main css -->
+  <link rel="stylesheet" href="./style/style.css">
+  <!--Styles from Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top bg-light">
+    <div class="container">
+      <a class="navbar-brand brand" href="#">Emerald</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu"
+        aria-controls="menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="menu">
+        <div class="offcanvas-header">
+          <span class="brand">Emerald</span>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            <li class="nav-item"><a class="btn btn-primary mt-2 mt-lg-0" href="#contato">Planejar viagem</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-card">
+        <h1 class="fw-bold">Sua próxima viagem<br>começa AQUI!</h1>
+        <p>Pacotes exclusivos pelos destinos mais incríveis do Brasil</p>
+        <a href="#destinos" class="btn btn-hero fw-bold" id="btn-hero">ver pacotes</a>
+      </div>
+    </div>|
+  </section>
+
+  <main>
+
+    <section class="py-5" id="sobre">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h1>Sobre Nós</h1>
+            <p>Somos um time pequeno que trabalha direto com guias e pousadas locais em cada destino.
+              Isso significa grupos menores, preços mais justos pra quem recebe o viajante, e roteiros que mudam se o
+              clima,
+              a maré ou a vontade do grupo mudar.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/Tucano.jpg" alt="tucano" class="img-fluid rounded">
+          </div>
+        </div>
+    </section>
+
+    <section id="destinos" class="py-5">
+      <div class="container">
+
+        <h2 class="text-center mb-5">
+          Nossos destinos
+        </h2>
+
+        <!-- RJ -->
+        <article class="destino mb-4">
+          <div class="destino-conteudo">
+            <!-- titulo -->
+            <h3>Rio de Janeiro</h3>
+            <!-- descrição -->
+            <div class="destino-descricao">
+              <p> Descubra o Rio de Janeiro entre praias, trilhas e
+                paisagens que misturam natureza e vida urbana. Explore
+                lugares como Copacabana, Ipanema e a Floresta da Tijuca,
+                aproveitando o clima descontraído e os cenários marcantes
+                da cidade.</p>
+              </div>
+              
+              <!-- imagem -->
+              <img src="./img/RJ_de_outro_angulo.jpg" alt="Rio de janeiro" class="img-fluid destino-img">
+
+            </div>
+        </article>
+
+        <!-- Brasília -->
+        <article class="destino mb-4 py-5">
+          <div class="row align-items-center g-4 ">
+
+            <div class="col-md-6">
+              <h3>Brasília</h3>
+              <p> Conheça Brasília e sua arquitetura única, planejada para
+                representar uma nova fase da história brasileira. Visite
+                seus principais monumentos, espaços culturais e áreas
+                abertas, com opções para quem busca história, arquitetura
+                e uma experiência diferente.</p>
+            </div>
+
+            <div class="col-md-6 ">
+              <img src="./img/brasilia.jpg" alt="Catedral de Brasília" class="img-fluid rounded ">
+            </div>
+          </div>
+
+        </article>
+
+        <!-- Salvador -->
+        <article class="destino mb-4">
+          
+          <!-- descrição -->
+          <div class="destino-conteudo">
+
+            <h3>Salvador</h3>
+
+            <div class="destino-descricao">
+              <p> Viva Salvador através de suas praias, sabores, música e
+                história. Caminhe pelo Pelourinho, conheça a Baía de Todos
+                os Santos e aproveite a atmosfera única de uma cidade que
+                reúne cultura, tradição e belas paisagens.</p>
+            </div>
+            <!-- imagem -->
+          <img src="./img/salvador_BA.jpg" alt="Orla de Salvador" class="img-fluid destino-img">
+
+          </div>
+
+        </article>
+      </div>
+
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container">
+        <p class="section-label">Pronto pra ir?</p>
+        <h2>Conta pra gente onde você quer chegar e montamos o roteiro juntos</h2>
+        <a href="mailto:contato@emerald.com.br" class="btn btn-primary">contato@emerald.com.br</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container d-flex flex-wrap justify-content-between gap-3">
+      <span>© 2026 TDE FRONTEND - sam77g</span>
+      <span><a href="#destinos">Destinos</a> · <a href="#sobre">Sobre</a> · <a href="#contato">Contato</a></span>
+    </div>
+  </footer>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
