@@ -179,7 +179,7 @@ header {
 }
 
 
-
+/* CTA */
 
 .cta {
   font-family: museomoderno;
@@ -192,6 +192,8 @@ header {
   max-width: 20ch;
   margin: 0 auto 1.5rem;
 }
+
+/* FOOTER */
 
 footer {
   font-family: museomoderno;
