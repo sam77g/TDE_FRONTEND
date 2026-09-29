@@ -1,3 +1,5 @@
+<div align="center">
+   
 # TDE FRONTEND
 
 Landing page institucional para uma empresa de viagens e turismo, desenvolvida como trabalho acadêmico (TDE) da disciplina de **Front-End**, ministrada pelo Prof. Gean Trabuco.
@@ -8,6 +10,8 @@ Landing page institucional para uma empresa de viagens e turismo, desenvolvida c
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.8-7952B3?logo=bootstrap&logoColor=white)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
+
+</div>
 
 ---
 
@@ -21,8 +25,8 @@ Landing page institucional para uma empresa de viagens e turismo, desenvolvida c
 6. [Como Executar](#6-como-executar)
 7. [Versionamento](#7-versionamento)
 8. [Fluxo de Desenvolvimento](#8-fluxo-de-desenvolvimento)
-9. [Status do Projeto](#10-status-do-projeto)
-10. [Licença](#11-licença)
+9. [Status do Projeto](#9-status-do-projeto)
+10. [Licença](#10-licença)
 
 ---
 
