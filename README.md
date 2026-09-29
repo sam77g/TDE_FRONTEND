@@ -2,8 +2,8 @@
 
 Landing page institucional para uma empresa de viagens e turismo, desenvolvida como trabalho acadêmico (TDE) da disciplina de **Front-End**, ministrada pelo Prof. Gean Trabuco.
 
-![Status](https://img.shields.io/badge/status-finalizado-green)
-![Versão](https://img.shields.io/badge/vers%C3%A3o-v1.0.0--beta-green)
+![Status](https://img.shields.io/badge/status-Deploy-green)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-v1.0.0-green)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.8-7952B3?logo=bootstrap&logoColor=white)
