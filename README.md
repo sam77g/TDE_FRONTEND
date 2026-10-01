@@ -70,7 +70,7 @@ TDE_FRONTEND/
 │   ├── style/
 │   │   └── style.css        # Estilos personalizados
 │   └── index.html           # Página principal
-├── DOCUMENTATION.md         # Guia para colaboradores
+├── CONTRIBUTING.md          # Guia para colaboradores
 ├── LICENSE                  # Licença MIT
 └── README.md                # Documentação geral do projeto
 ```
